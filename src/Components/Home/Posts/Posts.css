@@ -1,0 +1,75 @@
+.post__userimage {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid #e4405f;
+  padding: 2px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.post__name {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 0 6px;
+}
+
+.post__city {
+  margin: 0 0 0 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.post__icons-dot {
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+}
+
+.post__image {
+  width: 100%;
+  height: auto;
+}
+
+.post__icons {
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+}
+
+.post__description {
+    font-size: 50px;
+    
+}
+
+.comment {
+  width: 100%;
+  max-height: 100px;
+}
+
+.comment::-webkit-scrollbar {
+  display: none;
+}
+
+.comment__input {
+    border: none;
+    margin: 0 10px;
+}
+
+.comment__input:focus {
+    color: #000000;
+    outline: 0;
+}
+
+.comment__button {
+    border: none;
+    color: #40b3f1be;
+}
+
+.comment__button:hover {
+    color: #40b3f1;
+}
+
+.comment__icons {
+  width: 1rem;
+  height: 1rem;
+}

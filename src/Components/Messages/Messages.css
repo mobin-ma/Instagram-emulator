@@ -1,0 +1,88 @@
+.messages__container {
+  max-width: 920px;
+  margin: 0 auto;  
+  position: relative;
+}
+
+.pencil-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.chevron-down-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.contact__img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.online {
+  width: 17px;
+  height: 17px;
+  background-color: greenyellow;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 3px;
+}
+
+.user__img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.user-chat {
+  bottom: -10px;
+  left: -5px;
+}
+
+.bg-chat {
+  background-color: #b2b2b2b6;
+}
+
+.submit-message-container {
+  width: 68.3%;
+  bottom: 1px;
+  right: -11px;
+}
+
+@media screen and (max-width: 450px) {
+  .messages__container {
+    max-width: 300px;
+    margin: 0 auto;  
+  }
+
+  .contact__img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .submit-message-container {
+    width: 108%;
+    bottom: 1px;
+    right: -11px;
+  }
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 767px) {
+  .messages__container {
+    max-width: 600px;
+    margin: 0 auto;  
+  }
+
+  .contact__img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .submit-message-container {
+    width: 103.3%;
+    bottom: 1px;
+    right: -11px;
+  }
+}
