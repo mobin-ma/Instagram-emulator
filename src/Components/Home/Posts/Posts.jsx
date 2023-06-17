@@ -1,4 +1,4 @@
-import React from 'react'
+  import React from 'react'
 import Post from './Post'
 
 const Posts = () => {
@@ -8,7 +8,7 @@ const Posts = () => {
             id: 1,
             userName: 'ail-na',
             userImage: 'https://www.citypng.com/public/uploads/preview/free-round-flat-male-portrait-avatar-user-icon-png-11639648873oplfof4loj.png',
-            image: 'https://newsparsi.com/goto/file/image/724846',
+            image: '../../../asetss/post-1.jpg',
             caption: 'This is caption for the post...',
             city: 'Thran , iran'
         },
@@ -16,7 +16,7 @@ const Posts = () => {
             id: 2,
             userName: 'mobina-m',
             userImage: 'https://cdn-icons-png.flaticon.com/512/219/219961.png',
-            image: 'https://newsparsi.com/goto/file/image/724846',
+            image: '../../../asetss/post-2.jpg',
             caption: 'This is caption for the post...',
             city: 'Hamedan , iran'
         },
@@ -24,7 +24,7 @@ const Posts = () => {
             id: 3,
             userName: 'mina-.s',
             userImage: 'https://cdn-icons-png.flaticon.com/512/219/219961.png',
-            image: 'https://newsparsi.com/goto/file/image/724846',
+            image: '../../../asetss/post-3.jpg',
             caption: 'This is caption for the post...',
             city: 'Tabriz , iran'
         },
@@ -32,7 +32,7 @@ const Posts = () => {
             id: 4,
             userName: 'hasan-km',
             userImage: 'https://www.citypng.com/public/uploads/preview/free-round-flat-male-portrait-avatar-user-icon-png-11639648873oplfof4loj.png',
-            image: 'https://newsparsi.com/goto/file/image/724846',
+            image: '../../../asetss/post-4.jpg',
             caption: 'This is caption for the post...',
             city: 'Esfehan , iran'
         },
@@ -40,7 +40,7 @@ const Posts = () => {
             id: 5,
             userName: 'neda--a',
             userImage: 'https://cdn-icons-png.flaticon.com/512/219/219961.png',
-            image: 'https://newsparsi.com/goto/file/image/724846',
+            image: '../../../asetss/post-5.jpg',
             caption: 'This is caption for the post...',
             city: 'Mazandran , iran'
         },
@@ -48,7 +48,7 @@ const Posts = () => {
             id: 6,
             userName: 'mehdi--kh',
             userImage: 'https://www.citypng.com/public/uploads/preview/free-round-flat-male-portrait-avatar-user-icon-png-11639648873oplfof4loj.png',
-            image: 'https://newsparsi.com/goto/file/image/724846',
+            image: '../../../asetss/post-1.jpg',
             caption: 'This is caption for the post...',
             city: 'Hamedan , iran'
         },
@@ -56,7 +56,7 @@ const Posts = () => {
             id: 7,
             userName: 'mohadeseh-ab',
             userImage: 'https://cdn-icons-png.flaticon.com/512/219/219961.png',
-            image: 'https://newsparsi.com/goto/file/image/724846',
+            image: '../../../asetss/post-2.jpg',
             caption: 'This is caption for the post....',
             city: 'Bosher , iran'
         },
@@ -64,7 +64,7 @@ const Posts = () => {
             id: 8,
             userName: 'mohamad-mahdi',
             userImage: 'https://www.citypng.com/public/uploads/preview/free-round-flat-male-portrait-avatar-user-icon-png-11639648873oplfof4loj.png',
-            image: 'https://newsparsi.com/goto/file/image/724846',
+            image: '../../../asetss/post-3.jpg',
             caption: 'This is caption for the post....',
             city: 'Thran , iran'
         },
@@ -72,7 +72,7 @@ const Posts = () => {
             id: 9,
             userName: 'niloo-md',
             userImage: 'https://cdn-icons-png.flaticon.com/512/219/219961.png',
-            image: 'https://newsparsi.com/goto/file/image/724846',
+            image: '../../../asetss/post-4.jpg',
             caption: 'This is caption for the post....',
             city: 'Hamedan , iran'
         },
@@ -80,14 +80,14 @@ const Posts = () => {
             id: 10,
             userName: 'amir-js',
             userImage: 'https://www.citypng.com/public/uploads/preview/free-round-flat-male-portrait-avatar-user-icon-png-11639648873oplfof4loj.png',
-            image: 'https://newsparsi.com/goto/file/image/724846',
+            image: '../../../asetss/post-5.jpg',
             caption: 'This is caption for the post....',
             city: 'Thran , iran'
         },
     ]
 
   return (
-    <div className=''>
+    <div>
         {
             posts.map((post) => (
                 <Post key={post.id} userName={post.userName} userImage={post.userImage} image={post.image} caption={post.caption} city={post.city}/>
