@@ -1,5 +1,10 @@
-  import React from 'react'
+import React from 'react'
 import Post from './Post'
+import post1 from '../../../asetss/post-1.jpg'
+import post2 from '../../../asetss/post-2.jpg'
+import post3 from '../../../asetss/post-3.jpg'
+import post4 from '../../../asetss/post-4.jpg'
+import post5 from '../../../asetss/post-5.jpg'
 
 const Posts = () => {
 
@@ -8,7 +13,7 @@ const Posts = () => {
             id: 1,
             userName: 'ail-na',
             userImage: 'https://www.citypng.com/public/uploads/preview/free-round-flat-male-portrait-avatar-user-icon-png-11639648873oplfof4loj.png',
-            image: '../../../asetss/post-1.jpg',
+            image: post1,
             caption: 'This is caption for the post...',
             city: 'Thran , iran'
         },
@@ -16,7 +21,7 @@ const Posts = () => {
             id: 2,
             userName: 'mobina-m',
             userImage: 'https://cdn-icons-png.flaticon.com/512/219/219961.png',
-            image: '../../../asetss/post-2.jpg',
+            image: post2,
             caption: 'This is caption for the post...',
             city: 'Hamedan , iran'
         },
@@ -24,7 +29,7 @@ const Posts = () => {
             id: 3,
             userName: 'mina-.s',
             userImage: 'https://cdn-icons-png.flaticon.com/512/219/219961.png',
-            image: '../../../asetss/post-3.jpg',
+            image: post3,
             caption: 'This is caption for the post...',
             city: 'Tabriz , iran'
         },
@@ -32,7 +37,7 @@ const Posts = () => {
             id: 4,
             userName: 'hasan-km',
             userImage: 'https://www.citypng.com/public/uploads/preview/free-round-flat-male-portrait-avatar-user-icon-png-11639648873oplfof4loj.png',
-            image: '../../../asetss/post-4.jpg',
+            image: post4,
             caption: 'This is caption for the post...',
             city: 'Esfehan , iran'
         },
@@ -40,7 +45,7 @@ const Posts = () => {
             id: 5,
             userName: 'neda--a',
             userImage: 'https://cdn-icons-png.flaticon.com/512/219/219961.png',
-            image: '../../../asetss/post-5.jpg',
+            image: post5,
             caption: 'This is caption for the post...',
             city: 'Mazandran , iran'
         },
@@ -48,7 +53,7 @@ const Posts = () => {
             id: 6,
             userName: 'mehdi--kh',
             userImage: 'https://www.citypng.com/public/uploads/preview/free-round-flat-male-portrait-avatar-user-icon-png-11639648873oplfof4loj.png',
-            image: '../../../asetss/post-1.jpg',
+            image: post1,
             caption: 'This is caption for the post...',
             city: 'Hamedan , iran'
         },
@@ -56,7 +61,7 @@ const Posts = () => {
             id: 7,
             userName: 'mohadeseh-ab',
             userImage: 'https://cdn-icons-png.flaticon.com/512/219/219961.png',
-            image: '../../../asetss/post-2.jpg',
+            image: post2,
             caption: 'This is caption for the post....',
             city: 'Bosher , iran'
         },
@@ -64,7 +69,7 @@ const Posts = () => {
             id: 8,
             userName: 'mohamad-mahdi',
             userImage: 'https://www.citypng.com/public/uploads/preview/free-round-flat-male-portrait-avatar-user-icon-png-11639648873oplfof4loj.png',
-            image: '../../../asetss/post-3.jpg',
+            image: post3,
             caption: 'This is caption for the post....',
             city: 'Thran , iran'
         },
@@ -72,7 +77,7 @@ const Posts = () => {
             id: 9,
             userName: 'niloo-md',
             userImage: 'https://cdn-icons-png.flaticon.com/512/219/219961.png',
-            image: '../../../asetss/post-4.jpg',
+            image: post4,
             caption: 'This is caption for the post....',
             city: 'Hamedan , iran'
         },
@@ -80,21 +85,21 @@ const Posts = () => {
             id: 10,
             userName: 'amir-js',
             userImage: 'https://www.citypng.com/public/uploads/preview/free-round-flat-male-portrait-avatar-user-icon-png-11639648873oplfof4loj.png',
-            image: '../../../asetss/post-5.jpg',
+            image: post5,
             caption: 'This is caption for the post....',
             city: 'Thran , iran'
         },
     ]
 
-  return (
-    <div>
-        {
-            posts.map((post) => (
-                <Post key={post.id} userName={post.userName} userImage={post.userImage} image={post.image} caption={post.caption} city={post.city}/>
-            ))
-        }
-    </div>
-  )
+    return (
+        <div>
+            {
+                posts.map((post) => (
+                    <Post key={post.id} userName={post.userName} userImage={post.userImage} image={post.image} caption={post.caption} city={post.city} />
+                ))
+            }
+        </div>
+    )
 }
 
 export default Posts
